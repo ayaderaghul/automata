@@ -1,2 +1,3 @@
-#lang racket
-(require "./machines.rkt" "./syntax.rkt" "./tools.rkt")
+#lang racket/base
+(require "./machines.rkt" "./syntax.rkt")
+(provide (all-from-out "./machines.rkt" "./syntax.rkt"))
